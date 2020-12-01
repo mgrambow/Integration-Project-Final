@@ -99,7 +99,7 @@ given_count = input_number("How long would you like the Countdown to be?  Enter 
 
 
 def countdown(given_count):
-    """The purpose of this function is to create a countdown of a user-determine length. The user's length is gathered
+    """The purpose of this function is to create a countdown of a user-determined length. The user's length is gathered
     in the 'given_count' assignment above, and the function accepts this as parameter """
     for i in range(given_count):
         given_count -= 1
